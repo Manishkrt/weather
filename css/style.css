@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/def.jpeg);
+    height: 100vh ;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover ;
+}
+
+.app-main{
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgba(245, 245, 245, 0.686);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.app-main > *{
+    margin-bottom: 20px ;
+}
+.input-box{
+    width: 100%;
+    background-color: rgba(246, 245, 245, 0.727);
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.input-box:focus{
+    background-color: white; 
+}
+
+.weather-body{
+    color: rgb(124, 79, 79);
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.648);
+    display: none;
+}
+.location-details{
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+}
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-shadow: 3px 3px rgba(1, 1, 1, 0.366);
+}
+.min-max, .weather{
+    font-weight: 600;
+    font-size: 12pt ;
+}
